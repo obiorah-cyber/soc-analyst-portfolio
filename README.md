@@ -1,6 +1,6 @@
 # soc-analyst-portfolio
 My SOC Portfolio Repository
-# SOC Analyst Portfolio — [Obiorah Okeke]
+# SOC Analyst Portfolio — Obiorah Okeke
 
 ## About Me
 Aspiring SOC Analyst | 4-Month Training Program | Targeting Entry-Level Role
