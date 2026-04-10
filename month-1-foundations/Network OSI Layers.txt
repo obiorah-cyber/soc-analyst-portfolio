@@ -1,0 +1,39 @@
+Networking OSI Layers
+1. PHYSICAL 
+2. DATA LINK
+3. NETWORK 
+4. TRANSPORT 
+5. SESSION 
+6. PRESENTATION 
+7. APPLICATION 
+
+APPLICATION - Handles the interaction between the users. E.g HTTPS, SMTP, FTP
+
+PRESENTATION - It's where the Formatting, Encryption and Translator happens, making sure that the two computers understand it in the same way and their language and it's reduced to smaller size.
+
+SESSION - Here's where the cookies are saved for the session or period of time. Re-establishment, trying to hold the connection open E.g Session works when you login to bank app, and stops when you log out.
+
+TRANSPORT - This is where TCP and UDP works how the data should be sent, which road it should take. TCP for reliability, slower, and must be accurate, and UDP for efficiency, speed and doesn't care about accuracy of wether there are lost packets.
+Port to Port delivery.
+
+NETWORK - This where IP address (Internet Protocol)works. Router is used to Route packets through Routing table. Route delivery is done BETWEEN Networks, works in a settings of WAN, MAN, LAN. Network A to Network B.
+End to End delivery 
+
+DATA LINK - This where MAC (Media Access Control) works. Switch is used WITHIN the Network. They LEARN, FLOOD and FORWARD. Delivery of frames within the same network. 
+Hop to Hop delivery.
+
+PHYSICAL - This is wire itself or road itself, it can be wireless or wired. Wireless are Access Point. 
+Wired are fiber optics (glass) cable, twisted pair cable, coaxial cable.
+Twisted pair is used for computer/switch. They are moderate speed.(Electrical pulses)
+
+Coaxial is used for television. They are moderate speed. (Electrical pulses)
+
+Fiber optics is used by ISP. They are extremely fast and long distance connection. (Light pulses)
+
+
+The Data Unit Hierarchy
+Layers 5-7: Data (The message itself) 
+Layer 4: Segment (Data + Port headers) 
+Layer 3: Packet (Segment + IP headers)
+Layer 2: Frame (Packet + MAC headers)
+Layer 1: Bits (The 1s and 0s traveling the wire)
